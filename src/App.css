@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-size  li{
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-size-navs{
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  color: rgb(121, 121, 121);
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.top-header{
+  border-bottom: 4px solid rgb(209, 18, 18);
+}
+.badge{
+  font-size: 7px;
+}
+.card-bottom{
+  background-color: rgb(51, 50, 50);
+  padding: 5px;
+  /* display: none; */
+}
+.card-bottom button{
+  border: none;
+  background-color: rgb(219, 39, 39);
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 5px 20px 5px 15px;
+  /* display: none; */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-section:hover + .card-bottom{
+  display: block;
+  padding: 4px;
+}
+.card_section:hover{
+  border:1px solid red;
+  border-radius: 4px;
+}
+/* .card_section:hover + .card-bottom{
+  display: block;
+} */
+.middle-sec{
+  height: 100vh;
+}
+.card-btn button{
+  border: none;
+  margin: 2px 8px 2px 8px;
+  background-color: rgb(161, 17, 17);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-section button{
+  border: none;
+  background-color: rgb(161, 17, 17);
+  color: white;
+  margin-left: 9px;
+  margin-left: 5px;
+  padding-bottom: 8px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 9px;
+  border-radius: 0px 10px 10px 0px;
+}
+.search-section input , select{
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.search-section input{
+  padding-top:10px;
+}
+.search-section input:focus{
+  outline: none;
+}
+.search-section select:focus{
+  outline: none;
+}
+.search-section select{
+  border-radius: 10px 0px 0px 10px;
+  padding-bottom: 9px !important;
+}
+h5{
+  font-size: 12px;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif !important;
+}
+.card-body p{
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(92, 91, 89);
+}
+.sliderbtn{
+  position: absolute;
+  left: 68%;
+  bottom:-20%;
 }
